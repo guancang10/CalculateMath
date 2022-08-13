@@ -1,7 +1,11 @@
 package calculatemath
 
-func SquareRoot(number int) int {
-	return number * number
+func SquareRoot(number int, mutiply int) int {
+	result := 0
+	for i := 0; i < mutiply; i++ {
+		result += number * number
+	}
+	return result
 }
 
 func Factorial(number int) int {
