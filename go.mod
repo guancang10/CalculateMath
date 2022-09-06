@@ -1,4 +1,4 @@
-module github.com/guancang10/CalculateMath/v2
+module github.com/guancang10/CalculateMath/v3
 
 go 1.19
 
